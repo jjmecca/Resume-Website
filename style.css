@@ -1,0 +1,211 @@
+
+@font-face {
+    font-family: 'Minecraft';
+    src: url(font/minecraft.woff2) format('woff2');
+}
+
+a, h1, p {
+    font-family: 'Minecraft';
+}
+
+a {
+    color: white;
+    padding-left: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+h1, p {
+    color: black;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+}
+
+.main-text {
+    padding: 20px;
+    text-align: justify;
+}
+
+#navigation {
+    background-color: rgba(10, 167, 167);
+    padding: 10px;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    margin: 0;
+}
+
+#navigation a {
+    margin-left: 20px;
+}
+
+#navigation a:hover {
+    color: salmon;
+    font-weight: bold;
+}
+
+html, body, nav, footer {
+    font-family: 'Minecraft';
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
+img {
+    outline: 5px double salmon;
+}
+
+.col-10{
+    background-color: rgba(247, 217, 161, 0.7);
+    border: 10px dotted salmon;
+    margin: 100px auto 0;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+html {
+    overscroll-behavior: none;
+    min-height: 100vh;
+}
+
+body::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./img/tile.jpg');
+    background-repeat: repeat;
+    background-size: 200px;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+body {
+    background-color: wheat;
+    position: relative;
+    min-height: 100vh;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid salmon;
+    margin: 1em 0;
+    padding: 0;
+  }
+
+.material-symbols-outlined {
+    font-size: 28px;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+.card-header{
+    background-color: rgb(118, 182, 182);
+    width: 100%;
+}
+
+.card{
+    background-color: rgb(188, 224, 255);
+    width: 100%; 
+    max-width: 1000px; 
+    margin: 10px 0;
+}
+
+body > .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#accordion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#scrollspyHeading{
+    padding-top: 60px;
+    margin-top: -50px;
+}
+
+html {
+    scroll-padding-top: 50px;
+}
+
+#carouselCat{
+    margin: 50px;
+}
+
+.carousel-item img{
+    margin: auto;
+    width:100%; 
+    height:360px;
+    overflow: hidden;
+}
+
+#skills{
+    font-size: 12px;
+}
+
+.dropdown-menu{
+    background-color: rgba(10, 167, 167);
+    outline-color: aliceblue;
+}
+
+.dropdown-menu a{
+    font-size: 16px;
+}
+
+.dropdown-menu a:hover{
+    background-color: rgb(18, 158, 158);;
+    font-weight: normal !important;
+/*     
+    overflow-x:hidden;
+    max-width: max-content;
+    margin-left: 0px;*/
+}
+
+.custom-btn {
+    background-color: salmon;
+    color: aliceblue;
+}
+
+.custom-btn:hover {
+    background-color: rgb(226, 117, 105);
+    color: aliceblue;
+}
+
+.btn-link{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.btn-link:hover{
+    color: rgb(247, 156, 146);
+}
+
+.btn-link:active{
+    color: rgb(235, 140, 130);
+}
+
+#navigation a{
+    color: aliceblue;
+}
+
+.progress-bar{
+    background-color: salmon;
+}
