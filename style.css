@@ -171,7 +171,8 @@ html {
 }
 
 .dropdown-menu a:hover{
-    background-color: rgb(18, 158, 158);;
+    max-width: fit-content;
+    background-color: rgb(18, 158, 158) !important;
     font-weight: normal !important;
 /*     
     overflow-x:hidden;
