@@ -209,3 +209,8 @@ html {
 .progress-bar{
     background-color: salmon;
 }
+
+#back_btn:active,#pay_btn:active{
+    outline-color: salmon;
+    color: salmon;
+}
