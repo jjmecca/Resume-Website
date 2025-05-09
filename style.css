@@ -113,6 +113,7 @@ hr {
 .card-header{
     background-color: rgb(118, 182, 182);
     width: 100%;
+    text-align: center;
 }
 
 .card{
@@ -120,6 +121,7 @@ hr {
     width: 100%; 
     max-width: 1000px; 
     margin: 10px 0;
+    text-align: left;
 }
 
 body > .container {
@@ -134,7 +136,16 @@ body > .container {
     flex-direction: column;
     align-items: center;
     width: 100%;
-}
+  }
+  
+.card {
+    flex: 0 1 100%; /* Don't grow/shrink, set base width */
+    max-width: 1000px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  
 
 #scrollspyHeading{
     padding-top: 60px;
@@ -213,4 +224,15 @@ html {
 #back_btn:active,#pay_btn:active{
     outline-color: salmon;
     color: salmon;
+}
+
+h5,#date{
+    display: inline;
+}
+#date{
+    float: right;
+}
+
+.card-body{
+    width: 100%;
 }
